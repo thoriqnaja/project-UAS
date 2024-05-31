@@ -8,7 +8,7 @@ Original file is located at
 """
 
 from google.colab import drive
-drive.mount('/content/drive')
+drive.mount('https://drive.google.com/file/d/11-t2HrSm3rsoH_8zPmmmJ03uvWz1PnPj/view?usp=drive_link/content/drive')
 
 # Commented out IPython magic to ensure Python compatibility.
 # %cd '/content/drive/MyDrive/UAS'
