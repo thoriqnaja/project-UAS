@@ -8,3 +8,4 @@ st.title ('prediksi sakit jantung')
 model = pickel.load(open('heart_statlog_cleveland_hungary_final.sav','rb'))
 
 
+
