@@ -13,7 +13,7 @@ drive.mount('/content/drive')
 # Commented out IPython magic to ensure Python compatibility.
 # %cd '/content/drive/MyDrive/UAS'
 
-!pip install pandas
+#pip install pandas
 
 import pandas as pd
 
