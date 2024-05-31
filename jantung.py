@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title(hitung luas persegi panjang)
+st.title ('hitung luas persegi panjang')
 
 panjang = st.number_input ("masukkan nilai", 0)
 lebar = st.number_input ("masukkan lebar", 0)
