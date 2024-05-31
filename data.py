@@ -1,21 +1,10 @@
-# Membuat fungsi untuk memvalidasi input
-def validate_input(input_data):
-    if input_data.strip() == '':
-        return False
-    return True
+import pickle
+import numpy as np
+import streamlit as st
 
-# Membuat fungsi untuk memproses pendaftaran
-def process_registration(nim, nama, asal):
-    if validate_input(nim) and validate_input(nama) and validate_input(asal):
-        # Lakukan proses pendaftaran di sini
-        print("Pendaftaran berhasil!")
-    else:
-        print("Mohon lengkapi semua data pendaftaran.")
+st.title ('prediksi sakit jantung')
 
-# Meminta input dari pengguna
-nim = input("Masukkan NIM: ")
-nama = input("Masukkan Nama: ")
-asal = input("Masukkan Asal: ")
+# load save model
+model = pickel.load(open('heart_statlog_cleveland_hungary_final.sav','rb'))
 
-# Memproses pendaftaran
-process_registration(nim, nama, asal)
+
